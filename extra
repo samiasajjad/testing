@@ -1,0 +1,3 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['gsutil', 'mb', '-l', 'us-central1', 'gs://extra_test']
